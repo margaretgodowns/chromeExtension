@@ -1,3 +1,17 @@
 body {
-    padding: 20px;
+    margin: auto;
+    padding: 25px;
+}
+h1{
+  font-family: georgia;
+  text-align: center;
+  font-size: 2em;
+}
+.songLinks ul li{
+  list-style-type: none;
+  text-align: left;
+}
+.songLinks ul li a{
+  text-decoration: none;
+  color: black;
 }

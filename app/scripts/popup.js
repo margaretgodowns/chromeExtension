@@ -7,9 +7,9 @@ $(document).ready(function(){
     success:(function(data){
 
       var songPosts = "<ul>"
-      for(var i = 0; i < 5; i++){
+      for(var i = 1; i < 6; i++){
 
-        songPosts += '<li><a href="' + data.data.children[i].data.url + '"><img src ="' + data.data.children[i].data.thumbnail + ">" + data.data.children[i].data.title + '<li>';
+        songPosts += '<li class="link"><a href="' + data.data.children[i].data.url + '"></li><li><img src ="' + data.data.children[i].data.thumbnail + '">' + data.data.children[i].data.title + '<li>';
 
       }
 
